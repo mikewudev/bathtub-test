@@ -16,7 +16,7 @@ const FLOW_RATE_SECS = 2
 
 export default function Bathtub() {
   const [flow, setFlow] = useState(FLOW.STOPPED)
-  const [waterLevel, setWaterLevel] = useState(2)
+  const [waterLevel, setWaterLevel] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
